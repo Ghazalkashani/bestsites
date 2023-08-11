@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: hoor;
+}
+header{
+  height:100vh;
+  background-color: black; 
+  text-align: center;
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+}
+.img0{
+  width: 400px;
+  position: absolute;
+
+  animation-name: op;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+@keyframes op{
+  0%{
+    opacity: 0.25;
+  }
+
+  50%{
+    opacity: 0.5;
+  }
+
+  100%{
+    opacity: 0.9;
+  }
+}
+header a{
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 50px;
+}
+header ul{
+  text-align: center;
+}
+header li{
+  display: inline-block;
+  margin: 25px 15px;
+  list-style-type: none;
+}
+header h1{
+  position: absolute;
+  left: 350px;
+  top: 10px;
+  font-variant: small-caps;
+  color: white;
+  letter-spacing: 6px;
+}
+@font-face{
+  font-family: hoor ;
+  src: url(../assets/font/A\ Sardar\ Hoor.ttf)  format('truetype');
+}
+header h2{
+  color: white;
+  position: absolute;
+  top: 340px;
+  left: 450px;
+  width: 300px;
+  font-size: 25px;
+
+  animation-name: po;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+@keyframes po {
+  0%{
+     top: 340px;
+  }
+
+  100%{
+     top: 280px;
+  }
+}
+header button{
+  background: none;
+  color: white;
+  position: absolute;
+  right: 250px;
+  top: 10px;
+  padding: 15px;
+  border-radius: 150px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+#img1{
+  left: -100px;
+  top: 0;
+}
+#img2{
+  right: -100px;
+  bottom: 0;
+}
+#img3{
+  top: 500px;
+  right: 500px;
+}
+#img4{
+  right: -200px;
+  top: 0;
+}
+#img5{
+  left: -200px;
+  top: 500px;
+}
+main{
+  text-align: center;
+  background-color: #eee;
+}
+.img1{
+  width: 350px;
+  height: 200px;
+  margin-top: 20px;
+  margin: 10px;
+  transition: 2s;
+  cursor: pointer;
+}
+.img2{
+  margin-top: 100px;
+}
+.img1:hover{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  transform: translatey(-10px);
+}
+
+footer{
+  text-align: center;
+  background-color: black;
+}
+footer button{
+  background-color: #ffeba7;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: none;
+}
+footer h1{
+  color : white;
+}
+footer p{
+  color: white;
+  margin-top: 20px;
+}
+footer input {
+  border: none;
+  outline: none;
+  background: none;
+}
+footer .div-input{
+  background-color: rgb(104, 101, 101);
+  border-radius: 10px;
+  padding:5px;
+  width: 200px;
+  margin: 20px auto;
+}
+svg{
+  color: #ffeba7;
+  margin-right: 5px;
+}
+::placeholder{
+  color:aliceblue;
+}
